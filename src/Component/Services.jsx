@@ -8,8 +8,7 @@ const Services = () => {
     
   return (
     <div>
-      <Navbars/>
-      <Slider/>
+     <Slider/>
     </div>
   );
 }

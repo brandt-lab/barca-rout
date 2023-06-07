@@ -8,7 +8,7 @@ import Slider from './Slider';
 const Contact = () => {
   return (
     <div>
-      <Navbars/>
+
       <Slider/>
       
     </div>

@@ -3,15 +3,14 @@ import { Navbar, Container, Button, Form, Nav} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-
 const RouterNavbars = () => {
     return (
         <div>
-             <Navbar bg="light" expand="lg">
+             <Navbar bg = "light" expand="lg" >
                 <Container fluid>
                     <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
+                    <Navbar.Collapse id="navbarScroll" >
                         <Nav
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
@@ -19,7 +18,7 @@ const RouterNavbars = () => {
                         >
                             <Nav.Link as={Link} to={"/"} >Home</Nav.Link>
                             <Nav.Link as={Link} to={"/about"} >About</Nav.Link>
-                            <Nav.Link as={Link}to={"/contact"}>Contact</Nav.Link>
+                            <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
                             <Nav.Link as={Link} to={"/services"}>Services</Nav.Link>
                             
                            
